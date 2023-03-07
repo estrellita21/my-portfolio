@@ -1,0 +1,147 @@
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.Nav{
+  position: fixed;
+  top: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+.Nav ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 2rem;
+  list-style: none;
+  background-color: var(--accient-color);
+  box-shadow: 1px 1px 3px 1px #9b9b9b;
+}
+.Nav li{
+  font-size: 1rem;
+  padding: .5rem .7rem;
+  margin: .7rem 1rem;
+  background-color: var(--accient-color);
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.Nav li:hover{
+  background-color: var(--main-color);
+  color: var(--accient-color);
+}
+
+.menu-icon{
+  margin-right: .5rem;
+  width: 1rem;
+}
+
+.Home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: var(--secondary-color);
+}
+.Home img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  box-shadow: 1px 1px 5px 3px #9b9b9b;
+}
+.Home h1{
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 40%;
+  color: #2f2f2f;
+}
+.Home section{
+  height: 50%;
+  background-color: var(--accient-color);
+  color: #2f2f2f;
+}
+.Home section p{
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.Home section span{
+  text-align: left;
+}
+
+
+.About{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.About section{
+  background-color: var(--secondary-color);
+  width: fit-content;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 1px 1px 3px 1px #9b9b9b;
+}
+.About section h3{
+  background-color: var(--accient-color);
+  color: var(--main-color);
+  padding: 1rem 1.5rem;
+}
+.About section ul{
+  padding: 2rem;
+}
+.About section ul li{
+  padding: .5rem 0;
+}
+
+.Achievement{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Achievement img{
+  width: 40%;
+  margin: 0 2rem;
+}
+
+.Contact{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contact section{
+  background-color: var(--accient-color);
+  color: var(--accient-color);
+  padding: 5rem;
+  border-radius: 1rem;
+}
+.Contact span{
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  border-radius: 2rem;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.Contact span:hover{
+  background-color: var(--secondary-color);
+}
